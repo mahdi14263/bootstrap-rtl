@@ -1050,7 +1050,7 @@ th {
 }
 .input-group-addon:first-child {
   border-left: 0px;
-  border-right: 1px solid;
+  border-right: 1px solid #ccc;
 }
 .input-group .form-control:last-child,
 .input-group-addon:last-child,
@@ -1065,8 +1065,7 @@ th {
   border-top-right-radius: 0;
 }
 .input-group-addon:last-child {
-  border-left-width: 1px;
-  border-left-style: solid;
+  border-left: 1px solid #ccc;
   border-right: 0px;
 }
 .input-group-btn > .btn + .btn {
